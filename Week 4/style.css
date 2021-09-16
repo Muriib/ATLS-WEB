@@ -1,0 +1,22 @@
+ul{
+  color: blue; /* Can also change color from header*/
+  font-family: "Garamond"; /* Change font of text*/
+  font-weight:900;
+  font-size: 45px
+}
+
+body{ /*Can also use "section" or an id (i.e. "#top")*/
+  background-color: rgb(30,100,0);
+}
+
+form{
+  margin-left: 20px;
+}
+
+img{
+  width: 20vw;
+}
+
+#top{
+  border: solid .5px white;
+}
