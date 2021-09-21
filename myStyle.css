@@ -1,4 +1,28 @@
 body{
   background-color: #A5A6F6;
-  font-family: ;
+}
+
+h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 48px;
+}
+
+h2{
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+h3{
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+#first{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+  border: solid 2px black;
+
 }
