@@ -1,0 +1,78 @@
+body{
+  font-family: "Ubuntu";
+  font-size: 2vw;
+  font-weight: 300;
+  border: solid rgb(100,100,100) 1px;
+}
+
+p{
+  color: rgb(100,100,100);
+}
+
+h1{
+  background-color: blue;
+  color: black; /*!important; /*This prioritizes this style*/
+  font-family: "Stick No Bills"
+}
+
+.grey{
+  color: rgb(100,100,100);
+}
+.background{
+  background-color: rgb(225,225,225);
+}
+
+p.background{ /*paragraphs that have the class background*/
+  color: red;
+}
+
+span{/*for in-line styling; can also have classes and id's*/
+  color: blue;
+  font-weight: bold;
+}
+
+#sit{
+  font-family: cursive;
+}
+
+#solid{
+  border: solid rgb(225,225,0) 2px;
+}
+
+#dotted{
+  border: dotted rgb(225,225,0) 2px;
+}
+
+#dashed{
+  border: dashed rgb(225,225,0) 2px;
+}
+
+#double{
+  border: double rgb(225,225,0) 2px;
+}
+
+#ridge{
+  border: ridge rgb(225,225,0) 2px;
+}
+
+#groove{
+  border: groove rgb(225,225,0) 2px;
+}
+
+#two{
+  border: solid black 1px;
+  background-color: blue;
+  /*margin: 50px;*/ /*Impacts outside of box*/
+  /*padding: 50px;*/ /*Impacts inside of box*/
+  /*padding-left: 4vw;*/ /*4% of the page width*/
+  /*padding-top: 10vh;
+  margin-left: 10vw;*/
+
+  /*padding: top right bottom left;*/
+  padding: 30px 0px 30px 0px;
+}
+
+section{
+  border: solid black 1px;
+  margin: 0px;
+}
