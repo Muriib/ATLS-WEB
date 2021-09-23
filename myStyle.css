@@ -1,5 +1,6 @@
 body{
   background-color: #A5A6F6;
+  font-family: 'Reem Kufi', sans-serif;
 }
 
 h1{
@@ -24,5 +25,8 @@ h3{
   text-align: center;
   font-size: 30px;
   border: solid 2px black;
+}
 
+html{
+  border: solid;
 }
