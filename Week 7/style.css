@@ -1,0 +1,28 @@
+section{
+  background-color: #114aa6;
+  margin: 30vh 20vw;
+  padding: 8vh 10vh 10vw 10vw;
+  border-radius: 8px;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: black;
+  color: #e8eaed;
+}
+
+button:hover{
+  border: #fff solid 1px;
+}
+
+button:active{
+  color: #c3c6c9;
+}
+
+h1{
+  color: #e8eaed;
+  font-family: "Yaldevi";
+}
