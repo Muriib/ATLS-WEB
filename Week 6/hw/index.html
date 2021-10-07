@@ -15,19 +15,51 @@
     <button id="winter">WINTER</button>
     <button id="spring">SPRING</button>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <img src="spring.jpg" alt="Seasons" id="picture">
+    <p id="description">In Colorado, there are four seasons every that occur throughout each year. Each season has its own weather and distinct look.</p>
+    <img src="seasons.jpg" alt="Seasons" id="picture">
 
     <script type="text/javascript">
       console.log("javascript working");
       document.getElementById("summer").addEventListener("click", summerBtn)
+      document.getElementById("fall").addEventListener("click", fallBtn)
+      document.getElementById("winter").addEventListener("click", winterBtn)
+      document.getElementById("spring").addEventListener("click", springBtn)
 
       function summerBtn(){
         document.getElementById("summer").style.fontWeight = "bold";
         document.getElementById("summer").style.backgroundColor = "white";
         document.getElementById("summer").style.borderWidth = "0px";
-        document.getElementById("body").style.backgroundColor = "yellow";
-        document.getElementById("picture").src = "";
+        document.getElementById("body").style.backgroundColor = "#7aaf03";
+        document.getElementById("picture").src = "summer.jpg";
+        document.getElementById("picture").style.width = "50vw";
+        document.getElementById("description").innerHTML = "Summer is around June - July each year. During summer, there are high temperatures and long days.";
+      }
+      function fallBtn(){
+        document.getElementById("fall").style.fontWeight = "bold";
+        document.getElementById("fall").style.backgroundColor = "white";
+        document.getElementById("fall").style.borderWidth = "0px";
+        document.getElementById("body").style.backgroundColor = "#ef7101";
+        document.getElementById("picture").src = "fall.jpg";
+        document.getElementById("picture").style.width = "50vw";
+        document.getElementById("description").innerHTML = "Fall is around September - November each year. During fall, there are cool temperatures and beautiful colors in the leaves as plants prepare for winter.";
+      }
+      function winterBtn(){
+        document.getElementById("winter").style.fontWeight = "bold";
+        document.getElementById("winter").style.backgroundColor = "white";
+        document.getElementById("winter").style.borderWidth = "0px";
+        document.getElementById("body").style.backgroundColor = "#97b7d8";
+        document.getElementById("picture").src = "winter.jpg";
+        document.getElementById("picture").style.width = "50vw";
+        document.getElementById("description").innerHTML = "Winter is around December - February each year. During winter, there are low temperatures, short days, and snow.";
+      }
+      function springBtn(){
+        document.getElementById("spring").style.fontWeight = "bold";
+        document.getElementById("spring").style.backgroundColor = "white";
+        document.getElementById("spring").style.borderWidth = "0px";
+        document.getElementById("body").style.backgroundColor = "#f5c1f0";
+        document.getElementById("picture").src = "spring.jpg";
+        document.getElementById("picture").style.width = "50vw";
+        document.getElementById("description").innerHTML = "Spring is around March - May each year. During spring, there are cool temperatures and rain because plants are coming back to life after making it through winter.";
       }
     </script>
   </body>
