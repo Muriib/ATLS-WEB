@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Joke Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick+Hand">
+  </head>
+  <body>
+    <section>
+      <h1 id="text">Welcome to the Joke Machine. Click the button to get a joke.</h1>
+      <button id="newJoke">New Joke</button>
+    </section>
+
+    <script>
+      const jokes = ["If April showers bring May flowers, what do May flowers bring? Pilgrims.", "What do you call a factory that makes okay products? A satisfactory.", "How does the moon cut his hair? Eclipse it.",
+      "I asked my dog what's two minus two. He said nothing.", "I got carded at a liquor store, and my Blockbuster card accidentally fell out. The cashier said never mind.", "Why don't eggs tell jokes? They'd crack each other up.",
+      "What do you call someone with no body and no nose? Nobody knows.", "Why did Billy get fired from the banana factory? He kept throwing away the bent ones.", "Dad, can you put my shoes on? No, I don't think they'll fit me.",
+      "I used to be addicted to soap, but I'm clean now."];
+      let jokeCount = 0;
+
+      document.getElementById("newJoke").addEventListener("click", buttonClicked);
+      function buttonClicked(){
+        document.getElementById("text").innerHTML = jokes[jokeCount];
+        if (jokeCount >= 9){
+          jokeCount = 0;
+        }else {
+          jokeCount++;
+        }
+      }
+
+    </script>
+
+  </body>
+</html>
