@@ -1,0 +1,33 @@
+div{
+  background-color: pink;
+}
+
+#sports{
+  display: flex;
+}
+
+.options{
+  flex-grow: 1;
+  width: auto;
+   margin: 3vw;
+}
+
+img{
+  max-width: 25vw;
+  height: 30vh;
+  width: 25vw;
+  object-fit: cover; /*crop image to fit box instead of scrunching it*/
+  padding: 10px;
+  object-position: 100px 100px 100px 100px;
+}
+
+button{
+  float: right;
+  padding: 10px 50px;
+  margin-right: 10vw;
+}
+
+.blue{
+  background-color: blue;
+  color: white;
+}
