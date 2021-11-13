@@ -1,6 +1,65 @@
+@media screen and (min-width:700px){
+  img{
+    display: block;
+  }
+}
+
+@media screen and (max-width:701px){
+  img{
+    display: none;
+  }
+
+  #info{
+    text-align: center;
+    margin-left: 100px;
+  }
+}
+
 body{
   background-color: #A5A6F6;
   font-family: 'Reem Kufi', sans-serif;
+}
+
+#info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 50px;
+  margin-top: 20px;
+}
+
+#freetime{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#outdoors{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#goals{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#skills{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#kenya{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+#kenyaPic{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+img{
+  max-width: 50vw;
+  max-height: 50vh;
 }
 
 h1{
